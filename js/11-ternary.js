@@ -58,3 +58,16 @@ const e = 1 < 2
                     ? 7 
                     : 8;
 console.log(e);
+
+
+// true -> [1], false -> [2]
+
+const masyvas = [];
+
+if (true){
+    masyvas.push(1);
+} else {
+    masyvas.push(2);
+}
+
+const mas = true ? [1] : [2]
