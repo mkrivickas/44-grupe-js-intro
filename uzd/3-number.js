@@ -10,9 +10,17 @@ function numberLength(num) {
   // num = num < 0 ? -num : num;
 
   const digits = "" + num;
-  let count = 0;
+  let count = digits.length;
 
-  return digits.length;
+  if (num % 1 !== 0) {
+    count--;
+  }
+
+  if (num < 0) {
+    count--;
+  }
+
+  return count;
 }
 
 console.log(numberLength(true)); // Output: Pateikta netinkamo tipo reikšmė
