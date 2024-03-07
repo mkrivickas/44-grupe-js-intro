@@ -5,6 +5,8 @@ function numberLength(num) {
     return "Pateikta netinkamo tipo reikšmė";
   }
 
+  console.log("--------------------");
+  console.log(num);
   // Convert number to string to get its length
   // num = Math.abs(num);
   // num = num < 0 ? -num : num;
@@ -42,3 +44,11 @@ console.log(numberLength(-781)); // Output: 3
 console.log(numberLength(-37060123456)); // Output: 11
 console.log(numberLength(3.14)); // Output: Pateikta netinkamo tipo reikšmė
 console.log(numberLength(-3.14)); // Output: Pateikta netinkamo tipo reikšmė
+
+console.log(numberLength(1000000000000000000000)); // Output: 5
+console.log(numberLength(0.00000000000000000001)); // Output: 4
+console.log(
+  numberLength(
+    10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.000000000000000000000000000001
+  )
+); // Output: 6
