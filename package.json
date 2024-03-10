@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "uzd-6": "nodemon ./uzd/6-dalyba.js",
     "uzd-5": "nodemon ./uzd/5-string.js",
     "uzd-4": "nodemon ./uzd/4-biggest.js",
     "uzd-3": "nodemon ./uzd/3-number.js",
     "uzd-2": "nodemon ./uzd/2-multiply.js",
     "uzd-1": "nodemon ./uzd/1-empty.js",
+    "loops": "nodemon ./js/14-loops.js",
     "arrow": "nodemon ./js/13-arrow.js",
     "for": "nodemon ./js/12-for.js",
     "ternary": "nodemon ./js/11-ternary.js",

@@ -1,4 +1,4 @@
-console.clear();
+console.log();
 
 function division(a, b) {
   if (typeof a !== "number") {
@@ -18,7 +18,7 @@ function division(a, b) {
     return "ERROR: antras parametras negali būti NaN";
   }
 
-  const result = a * b;
+  const result = a / b;
 
   return result;
 }
