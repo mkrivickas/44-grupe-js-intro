@@ -73,3 +73,9 @@ console.log(
 console.log(
   `"abcdefghijkl": -5 ==> "${nthString("abcdefghijkl", -5)} === "hc"`
 );
+console.log(
+  `",.?/1234567890abcdefghijkl": -5 ==> "${nthString(
+    ",.?/1234567890abcdefghijkl",
+    -5
+  )}"`
+);
