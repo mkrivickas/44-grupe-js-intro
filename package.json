@@ -11,6 +11,7 @@
     "uzd-2": "nodemon ./uzd/2-multiply.js",
     "uzd-1": "nodemon ./uzd/1-empty.js",
     "recursion": "nodemon ./js/21-recursion.js",
+    "interval": "nodemon ./js/23-interval.js",
     "json": "nodemon ./js/20-json.js",
     "spread": "nodemon ./js/19-spread.js",
     "sort": "nodemon ./js/18-sort.js",
